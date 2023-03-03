@@ -25,6 +25,7 @@ function MicroFrontend({ name, host, history }) {
           renderMicroFrontend();
         };
         document.head.appendChild(script);
+        console.log(window);
       });
 
     return () => {
