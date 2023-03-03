@@ -6,7 +6,7 @@ function MicroFrontend({ name, host, history }) {
 
     const renderMicroFrontend = () => {
       
-      window[`render${name}`](`${name}-container`, histor, "Scarlet");
+      window[`render${name}`](`${name}-container`, history, "Scarlet");
     };
 
     if (document.getElementById(scriptId)) {
